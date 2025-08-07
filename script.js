@@ -149,7 +149,7 @@ window.onresize = () => {
 initParticles(); animateParticles();
 
 // --- GLOBAL CHAT & AI LOGIC ---
-const API_KEY = ""; // IMPORTANT: Add your Google AI Studio API key here
+const API_KEY = "AIzaSyBZj_2_W1gFxtWGCvVU5uXUo-7GoUDhDQM"; // API Key has been added here
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${API_KEY}`;
 let chatHistory = [];
 let isChatInitialized = false;
